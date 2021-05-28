@@ -39,11 +39,11 @@ body {
 
 /* Footer start */
   .class3 {
-    height: 250px;
+    height: 280px;
 }
 .class4 {
     display: flex;
-    height: 250px;
+    height: 280px;
 }
 
 .footlink {
@@ -55,4 +55,102 @@ body {
 }
 
 /* footer ends */
+
+/* Media tags */
+@media (min-width: 400px){
+  d{
+    font-size: 10px;
+  }
+  .class4{
+    height: 210px;
+  }
+}
+@media (min-width: 500px){
+  d{
+    font-size: 11px;
+  }
+  .class4{
+    height: 220px;
+  }
+}
+@media (min-width: 600px){
+  d{
+    font-size: 12px;
+  }
+  .class4{
+    height: 230px;
+  }
+}
+@media (min-width: 700px){
+  d{
+    font-size: 13px;
+  }
+  .class4{
+    height: 240px;
+  }
+}
+@media (min-width: 800px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+     height: 250px;
+  }
+}
+@media (min-width: 900px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+    height: 255px;
+  }
+}
+@media (min-width: 1000px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+    height: 240px;
+  }
+}
+@media (min-width: 1100px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+    height: 235px;
+  }
+}
+@media (min-width: 1200px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+    height: 225px;
+  }
+}
+@media (min-width: 1300px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+    height: 225px;
+  }
+}
+@media (min-width: 1400px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+    height: 225px;
+  }
+}
+@media (min-width: 1500px){
+  d{
+    font-size: 14px;
+  }
+  .class4{
+    height: 220px;
+  }
+}
  
