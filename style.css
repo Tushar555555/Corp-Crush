@@ -24,13 +24,17 @@ body {
       background-color: aqua;
   }
   .class2{
-      color: white !important; 
+      color: rgba(255, 255, 255, 0.699) !important; 
+      font-size: 14px;
   }
   .class2:hover{
       color: aqua !important;
-  transition-delay: 0.35s;
+  transition-delay: 0.30s;
   }
-
+  .xyz{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
 /* Navbar Ends */
 
 /* Footer start */
@@ -51,4 +55,4 @@ body {
 }
 
 /* footer ends */
-  
+ 
