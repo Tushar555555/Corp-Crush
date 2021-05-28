@@ -37,6 +37,54 @@ body {
   }
 /* Navbar Ends */
 
+
+/* banner starts */
+header{
+  height: 150vh;
+  background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/banner-image.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+ }
+ 
+ .banner-center{
+  height: 100vh;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+ }
+ 
+ .banner-center h1{
+  font-size: 5rem;
+ }
+ 
+ .banner-center p{
+ font-size: 2rem;
+ }
+
+ .banner-center h2{
+   font-size: 30px;
+   font-family: Noto Sans, sans-serif;
+ }
+
+ .banner-center h3{
+   font-size:  25px;
+ }
+ 
+ hr.new4 {
+  border: 1px solid rgb(0, 153, 255);
+  width: 150px;
+}
+
+ 
+ /* banner end */
+
+
+
+
 /* Footer start */
   .class3 {
     height: 280px;
@@ -64,6 +112,24 @@ body {
   .class4{
     height: 210px;
   }
+  .banner-center h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .banner-center h2{
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .banner-center h3{
+    font-size: 15px;
+  }
+  .banner-center p{
+    font-size: 25px;
+    text-align: center;
+  }
+  header{
+    height: 110vh;
+  }
 }
 @media (min-width: 500px){
   d{
@@ -71,6 +137,24 @@ body {
   }
   .class4{
     height: 220px;
+  }
+  .banner-center h1{
+    font-size: 40px;
+    text-align: center;
+  }
+  .banner-center h2{
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .banner-center h3{
+    font-size: 12px;
+  }
+  .banner-center p{
+    font-size: 25px;
+    text-align: center;
+  }
+  header{
+    height: 110vh;;
   }
 }
 @media (min-width: 600px){
@@ -80,6 +164,24 @@ body {
   .class4{
     height: 230px;
   }
+  .banner-center h1{
+    font-size: 42px;
+    text-align: center;
+  }
+  .banner-center h2{
+    font-size: 29px;
+    padding-top: 50px;
+  }
+  .banner-center h3{
+    font-size: 14px;
+  }
+  .banner-center p{
+    font-size: 27px;
+    text-align: center;
+  }
+  header{
+    height: 110vh;
+  }
 }
 @media (min-width: 700px){
   d{
@@ -87,6 +189,24 @@ body {
   }
   .class4{
     height: 240px;
+  }
+  .banner-center h1{
+    font-size: 44px;
+    text-align: center;
+  }
+  .banner-center h2{
+    font-size: 32px;
+    padding-top: 60px;
+  }
+  .banner-center h3{
+    font-size: 15px;
+  }
+  .banner-center p{
+    font-size: 29px;
+    text-align: center;
+  }
+  header{
+    height: 110vh;
   }
 }
 @media (min-width: 800px){
@@ -96,6 +216,24 @@ body {
   .class4{
      height: 250px;
   }
+  .banner-center h1{
+    font-size: 50px;
+    text-align: center;
+  }
+  .banner-center h2{
+    font-size: 35px;
+    padding-top: 60px;
+  }
+  .banner-center h3{
+    font-size: 16px;
+  }
+  .banner-center p{
+    font-size: 33px;
+    text-align: center;
+  }
+  header{
+    height: 100vh;
+  }
 }
 @media (min-width: 900px){
   d{
@@ -103,6 +241,24 @@ body {
   }
   .class4{
     height: 255px;
+  }
+  .banner-center h1{
+    font-size: 60px;
+    text-align: center;
+  }
+  .banner-center h2{
+    font-size: 37px;
+    padding-top: 100px;
+  }
+  .banner-center h3{
+    font-size: 18px;
+  }
+  .banner-center p{
+    font-size: 35px;
+    text-align: center;
+  }
+  header{
+    height: 110vh;
   }
 }
 @media (min-width: 1000px){
@@ -143,6 +299,12 @@ body {
   }
   .class4{
     height: 225px;
+  }
+  .banner-center h1{
+    text-align: left;
+  }
+  .banner-center p{
+    text-align: left;
   }
 }
 @media (min-width: 1500px){
