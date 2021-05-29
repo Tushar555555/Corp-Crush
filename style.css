@@ -84,6 +84,7 @@ header{
 
  /* hover section1 start */
 
+ 
 .overlay-image .normal {
   transition: .5s ease;
 }
@@ -142,7 +143,7 @@ header{
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 2s ease;
 }
 
 /* New overlay appearance on hover */
@@ -170,12 +171,24 @@ header{
   text-decoration: none;
 }
 
-
-
-
-
-
  /* hover section1 ends */
+
+
+ /* Ambitious brands start */
+       
+ .midder{
+  height: 200px;
+  width: 100%;
+  background-image:url(./images/banner2.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+ }
+
+      
+  /* Ambitious brands ends */
 
 
 
@@ -411,3 +424,14 @@ header{
   }
 }
  
+
+.wrapper:hover .fa-stack{
+  transition: 0.1s;
+  transform: rotateY(180deg);
+}
+.wrapper{
+  display: inline-block;
+  width: 200px;
+  overflow: hidden;
+  text-align: center;
+}
