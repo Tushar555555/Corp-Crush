@@ -40,7 +40,7 @@ body {
 
 /* banner starts */
 header{
-  height: 150vh;
+  height: 90vh;
   background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/banner-image.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
