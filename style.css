@@ -249,10 +249,7 @@ header{
     text-align: center;
   }
   header{
-    height: 110vh;;
-  }
-  .column {
-    width: 100%;
+    height: 130vh;;
   }
 }
 @media (min-width: 600px){
@@ -278,7 +275,7 @@ header{
     text-align: center;
   }
   header{
-    height: 110vh;
+    height: 120vh;
   }
 }
 @media (min-width: 700px){
@@ -330,7 +327,7 @@ header{
     text-align: center;
   }
   header{
-    height: 100vh;
+    height: 130vh;
   }
 }
 @media (min-width: 900px){
@@ -356,7 +353,7 @@ header{
     text-align: center;
   }
   header{
-    height: 110vh;
+    height: 130vh;
   }
 }
 @media (min-width: 1000px){
