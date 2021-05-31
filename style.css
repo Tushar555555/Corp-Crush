@@ -131,7 +131,7 @@ header{
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) rotateY(180deg);
   width: 100%;
 }
 /********* Overlay on hover *******/
@@ -143,12 +143,13 @@ header{
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: 2s ease;
+  transition: 1s ease;
 }
 
 /* New overlay appearance on hover */
 .overlay-image:hover .hover {
   opacity: 1;
+  transform: rotateY(180deg);
 }
 
 /* button */
@@ -167,9 +168,37 @@ header{
   border: solid aqua 2px;
   text-decoration: none;
 }
-.btn:hover {
+.btn1 {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-box-shadow: 3px 4px 3px #666666;
+  -moz-box-shadow: 3px 4px 3px #666666;
+  box-shadow: 3px 4px 3px #666666;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  background: black;
+  padding: 10px 20px 10px 20px;
+  border: solid white 2px;
   text-decoration: none;
 }
+.btn2 {
+  -webkit-border-radius: 9;
+  -moz-border-radius: 9;
+  border-radius: 9px;
+  -webkit-box-shadow: 3px 4px 3px #666666;
+  -moz-box-shadow: 3px 4px 3px #666666;
+  box-shadow: 3px 4px 3px #666666;
+  font-family: Arial;
+  color: white;
+  font-size: 20px;
+  background: aqua;
+  padding: 10px 20px 10px 20px;
+  border: solid white 2px;
+  text-decoration: none;
+}
+
 
  /* hover section1 ends */
 
@@ -180,7 +209,6 @@ header{
   height: 200px;
   width: 100%;
   background-image:url(./images/banner2.jpeg);
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -422,16 +450,4 @@ header{
   .class4{
     height: 220px;
   }
-}
- 
-
-.wrapper:hover .fa-stack{
-  transition: 0.1s;
-  transform: rotateY(180deg);
-}
-.wrapper{
-  display: inline-block;
-  width: 200px;
-  overflow: hidden;
-  text-align: center;
 }
