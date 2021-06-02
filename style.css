@@ -241,7 +241,7 @@ header{
 /* footer ends */
 
 /* Media tags */
-@media (min-width: 400px){
+@media (max-width: 400px){
   d{
     font-size: 10px;
   }
