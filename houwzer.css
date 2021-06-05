@@ -1,0 +1,146 @@
+body {
+    background: #f2f2f2;
+  }
+/* Navbar start */  
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 35px;
+  }
+  
+  .dropdown-toggle::after {
+     transition: transform 0.15s linear; 
+  }
+  
+  .show.dropdown .dropdown-toggle::after {
+    transform: translateY(3px);
+  }
+  
+  .dropdown-menu {
+    margin-top: 0;
+  }
+  .class1{
+      Background-color: white;
+  }
+  .class1:hover{
+      background-color: aqua;
+  }
+  .class2{
+      color: rgba(255, 255, 255, 0.699) !important; 
+      font-size: 14px;
+  }
+  .class2:hover{
+      color: aqua !important;
+  transition-delay: 0.30s;
+  }
+  .xyz{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+/* Navbar Ends */
+
+/* Banner */
+hr.new4 {
+  border: 1px solid rgb(0, 153, 255);
+  width: 150px;
+}
+hr.new3 {
+  border: 1px solid white;
+  width: 150px;
+}
+
+header{
+  height: 70vh;
+  background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/HZR_banner-brand-messaging.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: .9;
+  width: 100%;
+ }
+ /* Web Design */
+ .btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #65c2ed;
+  font-size: 20px;
+  background: #ffff;
+  padding: 15px 20px 15px 20px;
+  border: solid #65c2ed 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #65c2ed;
+  text-decoration: none;
+  color: white;
+}
+
+/* Collapse */
+.collapsible {
+  background-color: #65c2ed;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  width: 80%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 1.35em;
+}
+.active, .collapsible:hover {
+  background-color: #65c2ed;
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: white;
+}
+  /* media tags */
+
+  @media (max-width: 400px){
+    c{
+        padding-left: 80%;
+    }
+}
+@media (min-width: 500px){
+    c{
+        padding-left: 40%;
+    }
+    .gap{
+      width: 70%;
+      padding-top: 1%;
+    }
+}
+@media (min-width: 600px){
+    c{
+        padding-left: 50%;
+    }
+}
+@media (min-width: 700px){
+    c{
+        padding-left: 60%;
+    }
+}
+@media (min-width: 800px){
+    c{
+        padding-left: 65%;
+    }
+}
+@media (min-width: 900px){
+    c{
+        padding-left: 70%;
+    }
+    .gap{
+      width: 40%;
+      padding-left: 1%;
+    }
+}
+@media (min-width: 1000px){
+    c{
+        padding-left: 72%;
+    }
+}
+
+
