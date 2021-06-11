@@ -25,7 +25,7 @@
 
 <body>
     <!--Navbar Start-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid ">
             <a class="navbar-brand" href="index.html">
                 <img class="logo horizontal-logo" src="./images/logo.png" style="width: 40%;">
@@ -88,13 +88,139 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
+
+    <nav>
+        <div class="wrapper">
+          <div class="logo" style="margin-top: -1%;"><a href="./index.html"><img src="./images/logo.png" style="width: 40%;"></a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="./index.html">Home</a></li>
+            <li>
+              <a href="#" class="desktop-item">Discover Us</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">About</label>
+              <ul class="drop-menu">
+                <li><a href="./about.html">ABOUT US</a></li>
+                <li><a href="#">WEBINARS</a></li>
+                <li><a href="#">WORKSHOPS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Services</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Services</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row" style="height: 250px;margin-left: 50px;">
+                    <img src="./images/services-nav.jpeg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Digital Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">WEB DEVELOPMENT</a></li>
+                      <li><a href="#">APP DEVELOPMENT</a></li>
+                      <li><a href="#">DIGITAL MARKETING</a></li>
+                     
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">CONTENT WRITING</a></li>
+                      <li><a href="#">LEGAL SERVICES</a></li>
+                      <li><a href="#">GRAPHIC DESIGN</a></li>
+                    </ul>
+                  </div>
+                  <!-- <div class="row">
+                    <header>Lorem Ipsum</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                    </ul>
+                  </div> -->
+                 
+                </div>
+              </div>
+            </li>
+
+         
+            <li>
+              <a href="./work.html" class="desktop-item">Work</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Work</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row" style="margin-left: 20%;">
+                    <img src="./images/services-nav.jpeg" alt="">
+                  </div>
+                  <div class="row" style="margin-right: 20%;">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="./MLSPlayers.html">CYBER SECURITY</a></li>
+                      <li><a href="./ringstar.html">OFF KICKS</a></li>
+                      <li><a href="./houwzer.html">O2 MILLS</a></li>
+                      <li><a href="./vaterinarian.html">ULIV</a></li>
+                    </ul>
+                  </div>
+                  <!-- <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <a href="#" class="desktop-item">Insights</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Insights</label>
+              <ul class="drop-menu">
+                <li><a href="#">OUR BLOGS</a></li>
+                <li><a href="#">STARTUP NEWS</a></li>
+                <li><a href="#">TERMS</a></li>
+              </ul>
+            </li>
+            <li>
+
+           
+
+
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+         
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    
+        </div>
+      </nav>
+      
+     
+      </div><br/><br/><br/>
     <!--Navbar Ends-->
 
     <!--Banner Start-->
 
     <h2 class="text-center" style="padding-top: 3%;font-weight:inherit;color:rgba(0, 0, 0, 0.814);">Our Work</h2>
-    <hr class="new4">
+    <hr class="new4" style="margin-left: 46.2%;">
     <p class="text-center" style="font-weight:normal;">The best results come from a seamless integration of branding,
         design,<br />development and strategy, synchronized around a common goal.</p>
 
@@ -102,7 +228,7 @@
 
     <!--Cards-->
     <a href="./MLSPlayers.html">
-        <header style="background-color: rgba(0, 0, 0, 0.753);">
+        <div class="header1" style="background-color: rgba(0, 0, 0, 0.753);">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -119,11 +245,11 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     </a>
 
     <a href="./ringstar.html">
-        <header style="background-color: red">
+        <div class="header1" style="background-color: red">
             <div class="container">
                 <div class="row">
                     <div class="col">
@@ -140,12 +266,12 @@
                     </div>
                 </div>
             </div>
-        </header>
+        </div>
     </a>
 
     <a href="./houwzer.html">
         <div class="fade">
-            <header style="background-color: #0062ab">
+            <div class="header1" style="background-color: #0062ab">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -162,13 +288,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="./vaterinarian.html">
         <div class="fade">
-            <header style="background-color: #0061abe1">
+            <div class="header1" style="background-color: #0061abe1">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -186,13 +312,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="#">
         <div class="fade">
-            <header style="background-color: #042d3e">
+            <div class="header1" style="background-color: #042d3e">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -210,13 +336,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="#">
         <div class="fade">
-            <header style="background-color: #013568">
+            <div class="header1" style="background-color: #013568">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -234,13 +360,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="#">
         <div class="fade">
-            <header style="background-color: #f3550e">
+            <div class="header1" style="background-color: #f3550e">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -258,13 +384,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="#">
         <div class="fade">
-            <header style="background-color:  #004ba8">
+            <div class="header1" style="background-color:  #004ba8">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -282,13 +408,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="#">
         <div class="fade">
-            <header class="related" style="background-color: #ffc200">
+            <div class="header1" class="related" style="background-color: #ffc200">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -305,13 +431,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="#">
         <div class="fade">
-            <header style="background-color: #129ad7">
+            <div class="header1" style="background-color: #129ad7">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -332,13 +458,13 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 
     <a href="#">
         <div class="fade">
-            <header style="background-color: #212121">
+            <div class="header1" style="background-color: #212121">
                 <div class="container">
                     <div class="row">
                         <div class="col">
@@ -357,7 +483,7 @@
                         </div>
                     </div>
                 </div>
-            </header>
+            </div>
         </div>
     </a>
 

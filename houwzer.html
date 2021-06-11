@@ -23,7 +23,7 @@
 
 <body>
     <!--Navbar Start-->
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <!-- <nav class="navbar navbar-expand-md navbar-dark bg-dark">
         <div class="container-fluid ">
             <a class="navbar-brand" href="index.html">
                 <img class="logo horizontal-logo" src="./images/logo.png" style="width: 40%;">
@@ -87,7 +87,135 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> -->
+
+
+
+    <nav>
+        <div class="wrapper">
+          <div class="logo" style="margin-top: -1%;"><a href="./index.html"><img src="./images/logo.png" style="width: 40%;"></a></div>
+          <input type="radio" name="slider" id="menu-btn">
+          <input type="radio" name="slider" id="close-btn">
+          <ul class="nav-links">
+            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+            <li><a href="./index.html">Home</a></li>
+            <li>
+              <a href="#" class="desktop-item">About</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">About</label>
+              <ul class="drop-menu">
+                <li><a href="./about.html">ABOUT US</a></li>
+                <li><a href="#">WEBINARS</a></li>
+                <li><a href="#">WORKSHOPS</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" class="desktop-item">Services</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Services</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row" style="height: 250px;margin-left: 50px;">
+                    <img src="./images/services-nav.jpeg" alt="">
+                  </div>
+                  <div class="row">
+                    <header>Digital Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">WEB DEVELOPMENT</a></li>
+                      <li><a href="#">APP DEVELOPMENT</a></li>
+                      <li><a href="#">DIGITAL MARKETING</a></li>
+                     
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">CONTENT WRITING</a></li>
+                      <li><a href="#">LEGAL SERVICES</a></li>
+                      <li><a href="#">GRAPHIC DESIGN</a></li>
+                    </ul>
+                  </div>
+                  <!-- <div class="row">
+                    <header>Lorem Ipsum</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                      <li><a href="#">Lorem Ipsum</a></li>
+                    </ul>
+                  </div> -->
+                 
+                </div>
+              </div>
+            </li>
+
+         
+            <li>
+              <a href="./work.html" class="desktop-item">Work</a>
+              <input type="checkbox" id="showMega">
+              <label for="showMega" class="mobile-item">Work</label>
+              <div class="mega-box">
+                <div class="content">
+                  <div class="row" style="margin-left: 20%;">
+                    <img src="./images/services-nav.jpeg" alt="">
+                  </div>
+                  <div class="row" style="margin-right: 20%;">
+                    <header>Design Services</header>
+                    <ul class="mega-links">
+                      <li><a href="./MLSPlayers.html">CYBER SECURITY</a></li>
+                      <li><a href="./ringstar.html">OFF KICKS</a></li>
+                      <li><a href="./houwzer.html">O2 MILLS</a></li>
+                      <li><a href="./vaterinarian.html">ULIV</a></li>
+                    </ul>
+                  </div>
+                  <!-- <div class="row">
+                    <header>Email Services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Personal Email</a></li>
+                      <li><a href="#">Business Email</a></li>
+                      <li><a href="#">Mobile Email</a></li>
+                      <li><a href="#">Web Marketing</a></li>
+                    </ul>
+                  </div>
+                  <div class="row">
+                    <header>Security services</header>
+                    <ul class="mega-links">
+                      <li><a href="#">Site Seal</a></li>
+                      <li><a href="#">VPS Hosting</a></li>
+                      <li><a href="#">Privacy Seal</a></li>
+                      <li><a href="#">Website design</a></li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <a href="#" class="desktop-item">Insights</a>
+              <input type="checkbox" id="showDrop">
+              <label for="showDrop" class="mobile-item">Insights</label>
+              <ul class="drop-menu">
+                <li><a href="#">OUR BLOGS</a></li>
+                <li><a href="#">STARTUP NEWS</a></li>
+                <li><a href="#">TERMS</a></li>
+              </ul>
+            </li>
+            <li>
+
+           
+
+
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+         
+          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    
+        </div>
+      </nav>
+      
+     
+      </div>
     <!--Navbar Ends-->
 
     <!-- next and main page -->
@@ -128,7 +256,7 @@
             </h2>
         </div>
 
-        <hr class="new3">
+        <hr class="new3" style="margin-left: 45%;">
         <p class="text-center" style="font-family: 'Lora',serif;font-size: 1.35em;">Houwzer was struggling to explain
             their business model and communicate their
             <br />
@@ -151,10 +279,10 @@
         <div style="color: white;">
             <h3 style="padding: 20px 0px 10px 0px;">Brand Messaging</h3>
         </div>
-        <header style="background-color: #65c2ed;">
+        <div class="header1" style="background-color: #65c2ed;">
             <h3 style="color: white;padding-top: 18%;">Houwzer is a modern, fairly priced real estate agency for savvy
                 homeowners.</h3>
-        </header>
+            </div>
     </div>
     <!--Side by side cards-->
     <div class="row m-0 p-0" style="background-color: #009dda;">
@@ -220,7 +348,7 @@
             then illustrated it visually for their new website. Then we led the planning, <br />
             design and development of the new Houwzer website.
         </p><br />
-        <button class="btn">Visit The Website</button><br /><br /><br /><br />
+        <button class="btn4">Visit The Website</button><br /><br /><br /><br />
 
 
         <div style="background-color: #eee;"><br />
@@ -389,9 +517,10 @@
         <img src="./images/HZR_FishtownNeighborhoodGuide.jpeg" style="width: 100%;">
     </div>
 
+    <!-- Phase 4 -->
     <div class="text-center" style="color: white;background-color: #00457c;"><br /><br />
         <h3>Phase 4: Outdoor</h3>
-        <hr class="new3"><br />
+        <hr class="new3" style="margin-left: 45%;"><br />
         <h5>Following the website and marketing relaunch, Brolik completed the overhaul of<br />
             Houwzer's full visual identity including bold new 'for sale' signs and Houwzer's<br />
             first billboard campaign.<br /></h5><br /><br />
@@ -452,7 +581,7 @@
                         <div class="col">
                             <b class="text3" style="color: white;width: 100%;"><img
                                     src="./images/Rehab-Financial-Group-Logo_White.png" style="width: 35%;">
-                                <hr class="new3">
+                                <hr class="new3" style="margin-left: 35%;">
                                 </i><br />Rehab Finance Group Uses Content Marketing <br /> To Educate Prospects and
                                 Generate Leads<br /><br />
                             </b>
@@ -474,7 +603,7 @@
                         <div class="col">
                             <b class="text3" style="color: white;width: 100%;">
                                 <img src="./images/MLSPA_Logo.png" style="width: 25%;">
-                                <hr class="new3">
+                                <hr class="new3" style="margin-left: 37%;">
                                 </i><br />MLS Players Association Launches New Brand <br /><br />
                             </b>
                         </div>
@@ -496,7 +625,7 @@
                             <b class="text3" style="color: white;width: 100%;"><img
                                     src="./images/Veterinarian-Recommended-Solutions_Logo-White.png"
                                     style="width: 35%;">
-                                <hr class="new3">
+                                <hr class="new3" style="margin-left: 37%;">
                                 </i><br />Marketing and Web Design for Houwzer <br /><br />
                             </b>
                         </div>
