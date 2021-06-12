@@ -473,6 +473,12 @@ hr.new4 {
         font-size: 10px;
         padding-top: 20%;
     }
+    hr.line1{
+      margin-left: 40%;
+    }
+    hr.new4{
+      margin-left: 42%;
+    }
 }
 @media (min-width: 500px){
     c{
@@ -481,6 +487,12 @@ hr.new4 {
     .text1{
         font-size: 12px;
         padding-top: 20%;
+    }
+    hr.line1{
+      margin-left: 40%;
+    }
+    hr.new4{
+      margin-left: 42%;
     }
 }
 @media (min-width: 600px){
@@ -499,21 +511,85 @@ hr.new4 {
     .text1{
         font-size: 15px;
     }
+    hr.line1{
+      margin-left: 42%;
+    }
+    hr.new4{
+      margin-left: 43%;
+    }
 }
 @media (min-width: 800px){
     c{
         padding-left: 65%;
+    }
+    hr.line1{
+      margin-left: 43%;
+    }
+    hr.new4{
+      margin-left: 44%;
     }
 }
 @media (min-width: 900px){
     c{
         padding-left: 70%;
     }
+    hr.line1{
+      margin-left: 44%;
+    }
+    hr.new4{
+      margin-left: 44.5%;
+    }
 }
 @media (min-width: 1000px){
     c{
         padding-left: 72%;
     }
+    hr.line1{
+      margin-left: 45%;
+    }
+    hr.new4{
+      margin-left: 45%;
+    }
+}
+@media (min-width: 1100px){
+  hr.line1{
+    margin-left: 45%;
+  }
+  hr.new4{
+    margin-left: 44%;
+  }
+}
+@media (min-width: 1200px){
+  hr.line1{
+    margin-left: 45%;
+  }
+  hr.new4{
+    margin-left: 45%;
+  }
+}
+@media (min-width: 1300px){
+  hr.line1{
+    margin-left: 46%;
+  }
+  hr.new4{
+    margin-left: 45.5%;
+  }
+}
+@media (min-width: 1400px){
+  hr.line1{
+    margin-left: 46%;
+  }
+  hr.new4{
+    margin-left: 46.2%;
+  }
+}
+@media (min-width: 1500px){
+  hr.line1{
+    margin-left: 46%;
+  }
+  hr.new4{
+    margin-left: 47%;
+  }
 }
 
 

@@ -429,6 +429,12 @@ hr.new3 {
     .text2 h5{
         font-size: 15px;
     }
+    hr.new3{
+      margin-left: 37%;
+    }
+    hr.new4{
+      margin-left: 37%;
+    }
 }
 @media (min-width: 500px){
     c{
@@ -442,6 +448,12 @@ hr.new3 {
     }
     .text2 h5{
         font-size: 15px;
+    }
+    hr.new3{
+      margin-left: 39%;
+    }
+    hr.new4{
+      margin-left: 39%;
     }
 }
 @media (min-width: 600px){
@@ -457,6 +469,12 @@ hr.new3 {
     .text2 h5{
         font-size: 15px;
     }
+    hr.new3{
+      margin-left: 40%;
+    }
+    hr.new4{
+      margin-left: 40%;
+    }
 }
 @media (min-width: 700px){
     c{
@@ -467,6 +485,12 @@ hr.new3 {
     }
     .imgtext1{
         font-size: 12px;
+    }
+    hr.new3{
+      margin-left: 41%;
+    }
+    hr.new4{
+      margin-left: 41%;
     }
 }
 @media (min-width: 800px){
@@ -479,10 +503,22 @@ hr.new3 {
     .text2 h5{
         font-size: 16px;
     }
+    hr.new3{
+      margin-left: 42%;
+    }
+    hr.new4{
+      margin-left: 42%;
+    }
 }
 @media (min-width: 900px){
     c{
         padding-left: 70%;
+    }
+    hr.new3{
+      margin-left: 43%;
+    }
+    hr.new4{
+      margin-left: 43%;
     }
 }
 @media (min-width: 1000px){
@@ -492,6 +528,12 @@ hr.new3 {
     .imgtext{
         padding-left: 25%;
     }
+    hr.new3{
+      margin-left: 44%;
+    }
+    hr.new4{
+      margin-left: 44%;
+    }
 }
 @media (min-width: 1200px){
     .imgtext{
@@ -500,4 +542,26 @@ hr.new3 {
     .text2 h5{
         font-size: 17px;
     }
+    hr.new3{
+      margin-left: 45%;
+    }
+    hr.new4{
+      margin-left: 45%;
+    }
+}
+@media (min-width: 1400px){
+  hr.new3{
+    margin-left: 45%;
+  }
+  hr.new4{
+    margin-left: 45%;
+  }
+}
+@media (min-width: 1500px){
+  hr.new3{
+    margin-left: 46%;
+  }
+  hr.new4{
+    margin-left: 46%;
+  }
 }

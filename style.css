@@ -541,6 +541,9 @@ body {
   .header1{
     height: 110vh;
   }
+  hr.new4{
+    margin-left: 20%;
+  }
 }
 @media (min-width: 500px){
   d{
@@ -566,6 +569,9 @@ body {
   }
   .header1{
     height: 130vh;;
+  }
+  hr.new4{
+    margin-left: 25%;
   }
 }
 @media (min-width: 600px){
@@ -593,6 +599,9 @@ body {
   .header1{
     height: 120vh;
   }
+  hr.new4{
+    margin-left: 36%;
+  }
 }
 @media (min-width: 700px){
   d{
@@ -618,6 +627,9 @@ body {
   }
   .header1{
     height: 95vh;
+  }
+  hr.new4{
+    margin-left: 37%;
   }
 }
 @media (min-width: 800px){
@@ -645,6 +657,9 @@ body {
   .header1{
     height: 100vh;
   }
+  hr.new4{
+    margin-left: 38%;
+  }
 }
 @media (min-width: 900px){
   d{
@@ -671,6 +686,9 @@ body {
   .header1{
     height: 110vh;
   }
+  hr.new4{
+    margin-left: 39%;
+  }
 }
 @media (min-width: 1000px){
   d{
@@ -678,6 +696,9 @@ body {
   }
   .class4{
     height: 240px;
+  }
+  hr.new4{
+    margin-left: 40%;
   }
 }
 @media (min-width: 1100px){
@@ -687,6 +708,9 @@ body {
   .class4{
     height: 235px;
   }
+  hr.new4{
+    margin-left: 41%;
+  }
 }
 @media (min-width: 1200px){
   d{
@@ -695,6 +719,9 @@ body {
   .class4{
     height: 225px;
   }
+  hr.new4{
+    margin-left: 42%;
+  }
 }
 @media (min-width: 1300px){
   d{
@@ -702,6 +729,9 @@ body {
   }
   .class4{
     height: 225px;
+  }
+  hr.new4{
+    margin-left: 43%;
   }
 }
 @media (min-width: 1400px){
@@ -717,6 +747,9 @@ body {
   .banner-center p{
     text-align: left;
   }
+  hr.new4{
+    margin-left: 44%;
+  }
 }
 @media (min-width: 1500px){
   d{
@@ -724,5 +757,8 @@ body {
   }
   .class4{
     height: 220px;
+  }
+  hr.new4{
+    margin-left: 45%;
   }
 }
