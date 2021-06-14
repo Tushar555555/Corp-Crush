@@ -89,136 +89,252 @@
         </div>
     </nav> -->
 
-    <nav>
-        <div class="wrapper">
-          <div class="logo" style="margin-top: -1%;"><a href="./index.html"><img src="./images/logo.png" style="width: 40%;"></a></div>
-          <input type="radio" name="slider" id="menu-btn">
-          <input type="radio" name="slider" id="close-btn">
-          <ul class="nav-links">
-            <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-            <li><a href="./index.html">Home</a></li>
+    <div class = "main-wrapper">
+      <nav class = "navbar navbar-expand-lg" >
+          <div class="container-fluid ">
+        <div class = "brand-and-icon col">
+          <a href = "index.html" class = "navbar-brand">
+              <img src="./images/logo.png" style="width: 200px;">
+          </a>
+          <button type = "button" class = "navbar-toggler"  data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class = "fas fa-bars"></i>
+          </button>
+        </div>
+
+        <div class = "navbar-collapse">
+          <ul class = "navbar-nav">
             <li>
-              <a href="#" class="desktop-item">About</a>
-              <input type="checkbox" id="showDrop">
-              <label for="showDrop" class="mobile-item">About</label>
-              <ul class="drop-menu">
-                <li><a href="./about.html">ABOUT US</a></li>
-                <li><a href="#">WEBINARS</a></li>
-                <li><a href="#">WORKSHOPS</a></li>
-              </ul>
+              <a href = "./index.html">home</a>
             </li>
+
             <li>
-              <a href="#" class="desktop-item">Services</a>
-              <input type="checkbox" id="showMega">
-              <label for="showMega" class="mobile-item">Services</label>
-              <div class="mega-box">
-                <div class="content">
-                  <div class="row" style="height: 250px;margin-left: 50px;">
-                    <img src="./images/services-nav.jpeg" alt="">
-                  </div>
-                  <div class="row">
-                    <header>Digital Services</header>
-                    <ul class="mega-links">
-                      <li><a href="#">WEB DEVELOPMENT</a></li>
-                      <li><a href="#">APP DEVELOPMENT</a></li>
-                      <li><a href="#">DIGITAL MARKETING</a></li>
-                     
-                    </ul>
-                  </div>
-                  <div class="row">
-                    <header>Design Services</header>
-                    <ul class="mega-links">
-                      <li><a href="#">CONTENT WRITING</a></li>
-                      <li><a href="#">LEGAL SERVICES</a></li>
-                      <li><a href="#">GRAPHIC DESIGN</a></li>
-                    </ul>
-                  </div>
-                  <!-- <div class="row">
-                    <header>Lorem Ipsum</header>
-                    <ul class="mega-links">
-                      <li><a href="#">Lorem Ipsum</a></li>
-                      <li><a href="#">Lorem Ipsum</a></li>
-                      <li><a href="#">Lorem Ipsum</a></li>
-                    </ul>
-                  </div> -->
-                 
+              <a href = "./about.html" class = "menu-link" class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  discover us
+                <span class = "drop-icon">
+                  <i class = "fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class = "sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black">
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>top categories</h4>
+                  <ul>
+                    <li><a href = "./about.html">About us</a></li>
+                   
+                  </ul>
                 </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>other categories</h4>
+                  <ul>
+                      <li><a href = "#">Webinars</a></li>
+                      <li><a href = "#">Workshops</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h2>Discover All about us</h2>
+                  <button type = "button" class = "btn">Click Me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <img src = "images/work-nav.jpeg" alt = "product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
               </div>
             </li>
 
-         
             <li>
-              <a href="./work.html" class="desktop-item">Work</a>
-              <input type="checkbox" id="showMega">
-              <label for="showMega" class="mobile-item">Work</label>
-              <div class="mega-box">
-                <div class="content">
-                  <div class="row" style="margin-left: 20%;">
-                    <img src="./images/services-nav.jpeg" alt="">
-                  </div>
-                  <div class="row" style="margin-right: 20%;">
-                    <header>Design Services</header>
-                    <ul class="mega-links">
-                      <li><a href="./MLSPlayers.html">CYBER SECURITY</a></li>
-                      <li><a href="./ringstar.html">OFF KICKS</a></li>
-                      <li><a href="./houwzer.html">O2 MILLS</a></li>
-                      <li><a href="./vaterinarian.html">ULIV</a></li>
-                    </ul>
-                  </div>
-                  <!-- <div class="row">
-                    <header>Email Services</header>
-                    <ul class="mega-links">
-                      <li><a href="#">Personal Email</a></li>
-                      <li><a href="#">Business Email</a></li>
-                      <li><a href="#">Mobile Email</a></li>
-                      <li><a href="#">Web Marketing</a></li>
-                    </ul>
-                  </div>
-                  <div class="row">
-                    <header>Security services</header>
-                    <ul class="mega-links">
-                      <li><a href="#">Site Seal</a></li>
-                      <li><a href="#">VPS Hosting</a></li>
-                      <li><a href="#">Privacy Seal</a></li>
-                      <li><a href="#">Website design</a></li>
-                    </ul>
-                  </div> -->
+              <a href = "#" class = "menu-link"  class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+                <span class = "drop-icon">
+                  <i class = "fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class = "sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>Digital Services</h4>
+                  <ul>
+                    <li><a href = "#">Web Development</a></li>
+                    <li><a href = "#">App Development</a></li>
+                    <li><a href = "#">Digital Marketing</a></li>
+                  </ul>
                 </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>Design Services</h4>
+                  <ul>
+                    <li><a href = "./wordpress.html">Wordpress</a></li>
+                    <li><a href = "#">Legal Services</a></li>
+                    <li><a href = "#">Graphic Design</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h2>See All About Our Services</h2>
+                  <button type = "button" class = "btn">Click Me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <img src = "images/work-nav.jpeg" alt = "product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
               </div>
             </li>
 
+            <li>
+              <a href = "#" class = "menu-link"  class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resources
+                <span class = "drop-icon">
+                  <i class = "fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class = "sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4></h4>
+                  <ul>
+                    <li><a href = "#">Referaal Program</a></li>
+                    <li><a href = "#">#GivingBackTOCommunity</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4></h4>
+                  <ul>
+                    <li><a href = "#">Infographic</a></li>
+                    <li><a href = "#">eBooks</a></li>
+                    <li><a href = "#">PostCast</a></li>
+                    <li><a href = "#">Blogs</a></li>
+                    <li><a href = "#">Case Studies</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h2>See Our Resources</h2>
+                  <button type = "button" class = "btn">Click me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <img src = "images/work-nav.jpeg" alt = "product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
 
             <li>
-              <a href="#" class="desktop-item">Insights</a>
-              <input type="checkbox" id="showDrop">
-              <label for="showDrop" class="mobile-item">Insights</label>
-              <ul class="drop-menu">
-                <li><a href="#">OUR BLOGS</a></li>
-                <li><a href="#">STARTUP NEWS</a></li>
-                <li><a href="#">TERMS</a></li>
-              </ul>
+              <a href = "./work.html" class = "menu-link"  class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Work
+                <span class = "drop-icon">
+                  <i class = "fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class = "sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>Top categorie</h4>
+                  <ul>
+                    <li><a href = "./work.html">Our Work</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>other categories</h4>
+                  <ul>
+                    <li><a href = "./MLSPlayers.html">Enlighten Cyber Security</a></li>
+                    <li><a href = "./ringstar.html">Off Kicks</a></li>
+                    <li><a href = "./houwzer.html">O2 Mills</a></li>
+                    <li><a href = "./vaterinarian.html">Uliv</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h2>See All Our Work</h2>
+                  <button type = "button" class = "btn">Click me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <img src = "images/work-nav.jpeg" alt = "product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href = "#" class = "menu-link"  class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Insights
+                <span class = "drop-icon">
+                  <i class = "fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class = "sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>Blogs</h4>
+                  <ul>
+                    <li><a href = "#">Our Blogs</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>Other Categories</h4>
+                  <ul>
+                    <li><a href = "#">StartUp Samachar</a></li>
+                    <li><a href = "#">Terms</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h2>See Our Insights</h2>
+                  <button type = "button" class = "btn">Click me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <img src = "images/work-nav.jpeg" alt = "product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href = "#">Careers</a>
             </li>
             <li>
-
-           
-
-
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Contact</a></li>
+              <a href = "#" >Contact Us</a>
+            </li>
           </ul>
-         
-          <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
-    
         </div>
       </nav>
-      
-     
-      </div><br/><br/>
+    </div>
+  </div>
+</div>
     <!--Navbar Ends-->
 
     <!--Banner work start-->
 
-    <div class="header1 container-fluid">
+    <div class="header1 container-fluid" style="padding-top: 6%;">
         <div class="banner-center">
             <h1>
                 <strong>Adapt & Grow</strong>
@@ -569,6 +685,36 @@
 
 </body>
 <script src="./index.js"></script>
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+  
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  
+  </script>
+  <script>
+  try {
+    fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+      return true;
+    }).catch(function(e) {
+      var carbonScript = document.createElement("script");
+      carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+      carbonScript.id = "_carbonads_js";
+      document.getElementById("carbon-block").appendChild(carbonScript);
+    });
+  } catch (error) {
+    console.log(error);
+  }
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
 </head>
 
 </html>
