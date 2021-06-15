@@ -20,6 +20,10 @@
     <!--CSS link-->
     <link rel="stylesheet" href="wordpress.css">
 
+    <!-- Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
 <body>
 
@@ -272,84 +276,803 @@
     </div>
     </div>
     <!--Navbar Ends-->
+    <div style="padding-top: 10%;"></div>
 
 
     <!-- Form -->
-    <div class="row" style="padding-top: 8%;height: 80vh;">
-        <div class="col-md-5" style="margin-left: 4%;margin-top: 5%;">
-            <h1>Custom WordPress <br /> Development Services</h1>
-            <h6 style="line-height: 1.8rem;">We have been helping over 500+ agencies worldwide with WordPress web
-                development services to deliver 150+
-                sites every month. We believe that our journey to build powerful digital solutions and an enjoyable user
-                experience with our WordPress Development Services has just begun</h6>
-        </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-3 m-0 p-0" style="opacity: 1;">
-            <form>
-                <div style=" border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
-                    <h3 class="text-center">Inquire Now!</h3>
-                    <form action="/action_page.php">
-                        <input type="text" id="name" name="firstname" placeholder="Your name*">
-                        <input type="email" id="email" name="email" placeholder="Work Email*">
-                        <input type="contact" id="Contact" name="Contact" placeholder="Phone*">
-                        <input type="text" id="text" name="Company" placeholder="Company*">
-                        <input type="text" id="text" name="Notes" placeholder="Notes*">
-                        <input type="submit" value="SCALE YOUR BUSINESS"><br /><br />
-                    </form>
-                </div>
-            </form>
-        </div>
-        <div class="col-md-2 m-0 p-0">
-            <img class="person-img" src="./images/person-img-wordpress.png">
+    <div class="container">
+        <div class="row" style="height: 80vh;">
+            <div class="col-lg-5 col-md-5" style="margin-top: 5% ;">
+                <h1>Custom WordPress <br /> Development Services</h1>
+                <h6 style="line-height: 1.8rem;">We have been helping over 500+ agencies worldwide with WordPress web
+                    development services to deliver 150+
+                    sites every month. We believe that our journey to build powerful digital solutions and an enjoyable
+                    user
+                    experience with our WordPress Development Services has just begun</h6>
+            </div>
+            <div class="col-lg-1 col-md-1"></div>
+            <div class="col-lg-4 col-md-4 my-col">
+                <form>
+                    <div style=" border-radius: 5px;background-color: #f2f2f2;padding: 20px;">
+                        <h3 class="text-center">Inquire Now!</h3>
+                        <form action="/action_page.php">
+                            <input type="text" id="name" name="firstname" placeholder="Your name*">
+                            <input type="email" id="email" name="email" placeholder="Work Email*">
+                            <input type="contact" id="Contact" name="Contact" placeholder="Phone*">
+                            <input type="text" id="text" name="Company" placeholder="Company*">
+                            <input type="text" id="text" name="Notes" placeholder="Notes*">
+                            <input type="submit" value="SCALE YOUR BUSINESS"><br /><br />
+                        </form>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-1 col-sm-1 my-col">
+                <img class="person-img" src="./images/person-img-wordpress.png">
+            </div>
         </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#f3f4f5" fill-opacity="1"
-            d="M0,192L21.8,170.7C43.6,149,87,107,131,85.3C174.5,64,218,64,262,85.3C305.5,107,349,149,393,160C436.4,171,480,149,524,138.7C567.3,128,611,128,655,138.7C698.2,149,742,171,785,197.3C829.1,224,873,256,916,240C960,224,1004,160,1047,138.7C1090.9,117,1135,139,1178,160C1221.8,181,1265,203,1309,208C1352.7,213,1396,203,1418,197.3L1440,192L1440,320L1418.2,320C1396.4,320,1353,320,1309,320C1265.5,320,1222,320,1178,320C1134.5,320,1091,320,1047,320C1003.6,320,960,320,916,320C872.7,320,829,320,785,320C741.8,320,698,320,655,320C610.9,320,567,320,524,320C480,320,436,320,393,320C349.1,320,305,320,262,320C218.2,320,175,320,131,320C87.3,320,44,320,22,320L0,320Z">
+            d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,149.3C672,139,768,181,864,197.3C960,213,1056,203,1152,213.3C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
         </path>
     </svg>
 
-    <div class="row" style="background-color: rgba(0, 0, 0, 0.05);height: 220px;">
-        <div class="col-md-1"></div>
-        <div class="col-md-5">
-            <h2 style="font-weight: 500;" class="abc"><a
-                    style="background-color: #e15701cc;; border-radius: 5px 50px 30px;">W</a>ordCamp Sponsor</h2>
-            <p style="line-height: 1.8rem;">We’ve been a sponsor of Wordcamps for the past several years, working
-                closely with the community. We work on constant updates in order to improvise future WordPress themes.
-                And being a custom WordPress Development Company, it also helps us meet our client’s custom WordPress
-                Development Service deliverables.</p>
-            </div>
+    <div style="background-color: rgba(0, 0, 0, 0.05);">
+        <div class="container">
+            <div class="row" style="height: 220px;">
+                <div class="col-md-1"></div>
+                <div class="col-md-5">
+                    <h2 style="font-weight: 500;" class="abc"><a
+                            style="background-color: #e15701cc;; border-radius: 5px 50px 30px;">W</a>ordCamp Sponsor
+                    </h2>
+                    <p style="line-height: 1.8rem;">We’ve been a sponsor of Wordcamps for the past several years,
+                        working
+                        closely with the community. We work on constant updates in order to improvise future WordPress
+                        themes.
+                        And being a custom WordPress Development Company, it also helps us meet our client’s custom
+                        WordPress
+                        Development Service deliverables.</p>
+                </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-3">
                     <img src="./images/trial1.gif" style="width: 70%;">
                 </div>
-    </div>
-    <div class="row" style="background-color: rgba(0, 0, 0, 0.05);">
-        <div class="col-md-1"></div>
-        <div class="col-md-2" style="border-right: 3px solid rgba(0,0,0,0.52);">
-            <h3>80+</h3>
-            <p style="font-weight: 50;">WooCommerce developers</p>
+            </div>
         </div>
-        <div class="col-md-2">
-            <h3>450+</h3>
-            <p style="font-weight: 50;">Websites delivered</p>
+        <div class="container my-container">
+            <div class="row my-row">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 " style="border-right: 3px solid rgba(0,0,0,0.52);">
+                    <h3>80+</h3>
+                    <p style="font-weight: 50;">WooCommerce developers</p>
+                </div>
+                <div class="col-md-2">
+                    <h3>450+</h3>
+                    <p style="font-weight: 50;">Websites delivered</p>
+                </div>
+            </div>
         </div>
     </div>
-    
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,64C384,75,480,85,576,122.7C672,160,768,224,864,208C960,192,1056,96,1152,74.7C1248,53,1344,107,1392,133.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f3f4f5" fill-opacity="1"
+            d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,149.3C672,139,768,181,864,197.3C960,213,1056,203,1152,213.3C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+
     <div class="row">
-        <div class="col-lg-3 abc">
-    <img src="./images/grow-img.png" style="height: 60%;" >
+        <div class="col-lg-4">
+            <img src="./images/grow-img.png" style="width: 60%;">
+        </div>
+        <!-- <div class="col-lg-3"></div> -->
+        <div class="col-lg-6">
+            <h2><a style="background-color: #e15701cc;; border-radius: 5px 50px 30px;">Gr</a>ow your Agency Revenue,
+                hire the best WordPress Development Company to your service!</h2>
+            <p style="line-height: 1.8rem;">Offering professional WordPress website design and development services, we
+                offer individual focus to the complexities in each web project and deliver highly optimized SEO-smart
+                WordPress solutions within the decided timelines. Our team of WordPress developers follow clean and
+                clear coding practices to deliver websites that are secure and scalable. With this, dedicated project
+                managers help you with seamless delegation over your WordPress Development Services. You can opt for a
+                project-based model or independently manage your projects by hiring resources through our Offshore
+                Remote Teams model.</p>
+        </div>
     </div>
-    <div class="col-lg-2"></div>
-    <div class="col-lg-5">
-        <h2><a  style="background-color: #e15701cc;; border-radius: 5px 50px 30px;">Gr</a>ow your Agency Revenue, hire the best WordPress Development Company to your service!</h2>
-        <p style="line-height: 1.8rem;">Offering professional WordPress website design and development services, we offer individual focus to the complexities in each web project and deliver highly optimized SEO-smart WordPress solutions within the decided timelines. Our team of WordPress developers follow clean and clear coding practices to deliver websites that are secure and scalable. With this, dedicated project managers help you with seamless delegation over your WordPress Development Services. You can opt for a project-based model or independently manage your projects by hiring resources through our Offshore Remote Teams model.</p>
+
+    <div class="container my-container text-center" style="padding-top: 8%;">
+        <h2><a style="background-color: #e15701cc;; border-radius: 5px 50px 30px;">Wo</a>rdPress Development Services We
+            Offer</h2>
+    </div><br /><br />
+    <!-- Cards -->
+
+    <div class="container">
+        <div class="card-deck">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="./images/wp-development.svg" alt="Card image cap"
+                    style="width: 20%;margin-left: 5%;">
+                <div class="card-body">
+                    <h5 class="card-title">Custom WordPress
+                        Website Development</h5>
+                    <p class="card-text">Our years of expertise as a leading WordPress Development company, we are
+                        backed by some of the best in-house WordPress experts. The ones that help us develop clean and
+                        responsive websites in a seamless process-driven manner.</p>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="./images/customization.svg" alt="Card image cap"
+                    style="width: 20%;margin-left: 5%;">
+                <div class="card-body">
+                    <h5 class="card-title">WordPress Theme Development &
+                        Customization
+                    </h5>
+                    <p class="card-text">Keeping mobile-ﬁrst orientation in mind, we help clients with PSD to WordPress
+                        theme conversion services as well as custom theme development requirements.</p>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="./images/woocommerce-development.svg" alt="Card image cap"
+                    style="width: 20%;margin-left: 5%;">
+                <div class="card-body">
+                    <h5 class="card-title">WooCommerce Development</h5>
+                    <p class="card-text">As a one-stop WordPress development company, we help businesses develop
+                        growth-oriented WooCommerce stores and even migrate their existing store to WooCommerce.</p>
+
+                </div>
+            </div>
+        </div>
+    </div><br /><br />
+
+    <div class="container">
+        <div class="card-deck">
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="./images/pagespeed-optimization.svg" alt="Card image cap"
+                    style="width: 20%;margin-left: 5%;">
+                <div class="card-body">
+                    <h5 class="card-title">WordPress Plugin Development</h5>
+                    <p class="card-text">We as a WordPress plugin development company, follow the best coding practices
+                        to integrate plugins for imbibing an extensive range of features and functionalities in your
+                        websites.</p>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="./images/blog-development.svg" alt="Card image cap"
+                    style="width: 20%;margin-left: 5%;">
+                <div class="card-body">
+                    <h5 class="card-title">Blog Development
+                    </h5>
+                    <p class="card-text">Our WordPress experts help clients develop purely scalable and engaging
+                        WordPress blog themes at the best market prices and within the shortest TAT.</p>
+                </div>
+            </div>
+            <div class="card" style="border: none;">
+                <img class="card-img-top" src="./images/api-integration.svg" alt="Card image cap"
+                    style="width: 20%;margin-left: 5%;">
+                <div class="card-body">
+                    <h5 class="card-title">API Integration & Customization</h5>
+                    <p class="card-text">Extending your WordPress website capabilities, you can opt for API integration
+                        services. We ensure a seamless data sync and offer mobile app integration services with your
+                        site.</p>
+
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="container text-center" style="margin-top: 2%;">
+        <input type="submit" value="GET IN TOUCH" style="width: 20%;border-radius: 50px 50px 50px 50px;"><br /><br />
     </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f3f4f5" fill-opacity="1"
+            d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,149.3C672,139,768,181,864,197.3C960,213,1056,203,1152,213.3C1248,224,1344,256,1392,272L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+        </path>
+    </svg>
+
+    <div style="background-color: rgba(0, 0, 0, 0.05);">
+        <div class="container text-center">
+            <h1><a style="color:#E15501 ;">Our</a><a  style="color: #002DBF;"> Work</a></h1><br />
+            <p>We are a top-notch WordPress Web Design Agency helping you to beat the competition.<br />
+                Here are some of our best works.</p>
+        </div><br /><br />
+
+
+
+        <div class="card-deck text-center" style="margin: 0% 5% 0% 2%;">
+            <div class="card" style="border: none;background-color: transparent;">
+                <h5 class="card-title">AIRTASKER</h5>
+                <img class="card-img-top" src="./images/corpcrush-banner.jpeg" alt="Card image cap">
+                <div class="card-body">
+
+                    <p class="card-text">How We Increased Airtasker’s Trafﬁc by 7,251% in 10 Months</p>
+
+                </div>
+            </div>
+            <div class="card" style="border: none;background-color: transparent;">
+                <h5 class="card-title">RED SODA</h5>
+                <img class="card-img-top" src="./images/corpcrush-banner.jpeg" alt="Card image cap">
+                <div class="card-body">
+
+                    <p class="card-text">How we increased Sydney based wedding band's conversions by 750% in 10 months
+                    </p>
+
+                </div>
+            </div>
+            <div class="card" style="border: none;background-color: transparent;">
+                <h5 class="card-title">SURVIVAL EMERGENCY SOLUTIONS</h5>
+                <img class="card-img-top" src="./images/corpcrush-banner.jpeg" alt="Card image cap">
+                <div class="card-body">
+
+                    <p class="card-text">How We Put Survival on The First Page of Google in 6 Months</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#f3f4f5" fill-opacity="1"
+            d="M0,128L48,154.7C96,181,192,235,288,229.3C384,224,480,160,576,149.3C672,139,768,181,864,197.3C960,213,1056,203,1152,213.3C1248,224,1344,256,1392,272L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+        </path>
+    </svg>
+
+    <!-- pic and text work -->
+
+    <div class="container">
+        <h2><a style="background-color: #e15701cc;; border-radius: 5px 50px 30px;">Ou</a>r WordPress Development
+            Expertise</h2>
+    </div><br /><br />
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5" style="margin-top: 10%;">
+                <div data-aos="fade-up">
+                    <h2>Providing Speed & Performance</h2>
+                    <p>All the websites that we develop are super-fast and highly optimized. We ensure all the best
+                        practices are followed throughout the custom WordPress development process, which improves
+                        overall user engagement and conversion.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <div data-aos="fade-down">
+                    <img src="./images/speed-performance.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div data-aos="fade-up">
+                    <img src="./images/web-solution.jpeg">
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6" style="margin-top: 10%;">
+                <div data-aos="fade-down">
+                    <h2>SEO-Smart Web Solutions</h2>
+                    <p>Optimized for search engines, our basic SEO implementation includes heading tags, meta tags,
+                        image optimization, Alt text, etc., followed by the techniques that allow smoother
+                        implementation. This kickstarts marketing without any additional efforts.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5" style="margin-top: 10%;">
+                <div data-aos="fade-up">
+                    <h2>Simple, Clean & Functional Websites</h2>
+                    <p>We use intelligent frameworks. Our coding practices are well commented with universally accepted
+                        naming conventions which translate to easy use worldwide. That’s the first thing you’d expect
+                        from a trustworthy WordPress Website Development Company.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <div data-aos="fade-down">
+                    <img src="./images/functional-website.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div data-aos="fade-up">
+                    <img src="./images/low-maintenance.jpeg">
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6" style="margin-top: 20%;">
+                <div data-aos="fade-down">
+                    <h2>Low-Maintenance</h2>
+                    <p>We follow industry best practices for our WordPress website development services, removing any
+                        hardcoded gaps or unethical customizations. This ensures that our sites are easy to run and
+                        maintain.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5" style="margin-top: 10%;">
+                <div data-aos="fade-up">
+                    <h2>Tech for Non-Tech</h2>
+                    <p>WordPress powers 43% of the internet because of its user-friendliness. On top of it, we as an
+                        experienced WordPress website development company develop sites in such a way that makes its
+                        interface simpler, interactive, and friendly to all users.</p>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6">
+                <div data-aos="fade-down">
+                    <img src="./images/tech-non-tech.jpeg">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div data-aos="fade-up">
+                    <img src="./images/upgradable-secure.jpeg">
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-6" style="margin-top: 15%;">
+                <div data-aos="fade-down">
+                    <h2>Seamlessly Upgradable & Secure</h2>
+                    <p>Our websites are easily upgradable without any disruption in their previous functionality. We use
+                        the highest security techniques to ensure that the site is safe from any bot attacks. We follow
+                        correct ﬁle permissions, spam protection, form validations, conﬁguration settings, etc., to
+                        ensure that the website remains safe and secured.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div><br /><br /><br />
+
+
+    <!-- Blogs -->
+
+    <img src="./images/orange1.png" style="width: 100%;height: 250px;">
+
+    <div class="container text-center">
+        <h1><a style="color:#E15501 ;">Our </a><a style="color: #002DBF;">Blogs</a></h1>
+    </div>
+
+    <div class="container my-4">
+
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+            <!--Controls-->
+            <div class="controls-top">
+                <a class="btn-floating" href="#multi-item-example" data-slide="prev" style="float: left;"><i
+                        class="fas fa-long-arrow-alt-left fa-3x"></i></a>
+                <a class="btn-floating" href="#multi-item-example" data-slide="next" style="float: right;"><i
+                        class="fas fa-long-arrow-alt-right fa-3x"></i></a>
+            </div>
+            <!--/.Controls-->
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                <li data-target="#multi-item-example" data-slide-to="1"></li>
+                <li data-target="#multi-item-example" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+
+                <!--First slide-->
+                <div class="carousel-item active">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog1.jpeg" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">BEST TOOLS FOR PROJECT MANAGEMENT</h4>
+                                    <p class="card-text">Managing multiple project at once, check the progress of tasks
+                                        distributed to individuals, communicating across whole team is difficult and
+                                        time consuming. The better alternative</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog2.jpeg" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">FUTURE OF ELECTRIC VEHICLE</h4>
+                                    <p class="card-text">Why is Future of Electric Vehicle looks so promising in India?
+                                        India’s focus on next-gen mobility has definitely taken on legs under the
+                                        current government.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog3.jpeg" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">FLUTTER V/S REACT NATIVE – WHICH IS MORE TRENDING IN 2021?
+                                    </h4>
+                                    <p class="card-text">Battle’s on for Flutter & React Native​ Flutter SDK is Google’s
+                                        UI toolkit for crafting beautiful, natively compiled applications for mobile,
+                                        web, and desktop from</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.First slide-->
+
+                <!--Second slide-->
+                <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog4.jpeg" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">STARTUP TURNING RIGHT FOR YOUNGSTERS</h4>
+                                    <p class="card-text">The attention on introducing new dishes to the outlets as well
+                                        as in customers’ plates follows a never-ending cycle for Sagar and Binod who
+                                        founded</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog5.jpeg" alt="Card image cap"
+                                        style="width: 100%;height: 300px;">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">FASCINATING STARUPS</h4>
+                                    <p class="card-text">In this covid not only the small entrpreneurs but big big
+                                        celebrities have also shown interest in doing a debut in startup ecosuystem.
+                                        Check out</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog6.png" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">TOP 5 IMPORTANT SEO TRENDS THAT WILL HELP YOU TO GROW YOUR
+                                        WEBSITE FASTER</h4>
+                                    <p class="card-text">Wondering what the SEO landscape will look like in 2021? Read
+                                        on as these tips are vital if you are going to rank on Google.Zero</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Second slide-->
+
+                <!--Third slide-->
+                <div class="carousel-item">
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog7.png" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">HOW ONE CAN SETUP E-COMMERCE BUSINESS ONLINE</h4>
+                                    <p class="card-text">The ecommerce business industry is exploding. Amazon, Flipkart,
+                                        Snapdeal all showed us that ecommerce truly is the future. In the early stage,
+                                        eCommerce platforms used</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog1.jpeg" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">BEST TOOLS FOR PROJECT MANAGEMENT</h4>
+                                    <p class="card-text">Managing multiple project at once, check the progress of tasks
+                                        distributed to individuals, communicating across whole team is difficult and
+                                        time consuming. The better alternative</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 clearfix d-none d-md-block">
+                            <div class="card mb-2">
+                                <a href="#">
+                                    <img class="card-img-top" src="./images/blog2.jpeg" alt="Card image cap">
+                                </a>
+                                <div class="card-body">
+                                    <h4 class="card-title">FUTURE OF ELECTRIC VEHICLE</h4>
+                                    <p class="card-text">Why is Future of Electric Vehicle looks so promising in India?
+                                        India’s focus on next-gen mobility has definitely taken on legs under the
+                                        current government.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--/.Third slide-->
+
+            </div>
+            <!--/.Slides-->
+
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+
+
+
+    <!-- Clients -->
+
+    <div class="container text-center" style="margin-top: 15%;">
+        <h2><a style="background-color: #e15701cc;; border-radius: 5px 50px 30px;">He</a>ar from Our Clients</h2><br/>
+        <p>Being a leading WordPress Development agency, our promise to remain compliant towards<br/>
+            the ideas and goals comes first. Here’s what they think of Uplers.</p>
+    </div>
+<br/><br/>
+ <div class="container-xl">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>   
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="img-box"><img src="./images/david.jpeg" alt=""></div>
+                            <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet.</p>
+                            <p class="overview"><b>Name</b>, <c>Position</c></p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-box"><img src="./images/david.jpeg" alt=""></div>
+                            <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                            <p class="overview"><b>Name</b>, <c>Position</c></p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-box"><img src="./images/david.jpeg" alt=""></div>
+                            <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa. Etiam hendrerit dolor eget rutrum.</p>
+                            <p class="overview"><b>Name</b>, <c>Position</c></p>
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div><br/><br/>
+    <img src="./images/orange2.png" style="width:100%;height: 250px;">
+        
+
+<!-- FAQ -->
+
+<div class="container text-center" style="margin-top: 5%;">
+    <h3>Frequently Asked Questions</h3>
+    <hr style="border: 2px solid #002DBF;width: 30%;margin-left: 35%;">
+</div>
+  
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: black;font-size: 20px;">
+                    Will I get a dedicated Project Manager for my WordPress Website Development Services?
+                </a>
+              </h4>
+  
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body" style="margin-left: 2%;margin-right: 2%;">When you choose Uplers are your outsourcing partner for your WordPress Website Development Services, we ensure that you get backed by a team of Business Analysts, WordPress Developers, server administrators and of course a Project Manager.<br/><br/>
+
+                However a dedicated Project Manager is optional and can be hired as per your WordPress Development requirements. We will stay in touch with you and the team at all times. In case you are facing any challenges, we will assign a temporary project manager to resolve the issues at no additional cost.
+  </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: black;font-size: 20px;">
+                    If I have a team of 5 ppl, and if I want to change one of the WordPress expertise/resources in the middle of the contract, what do I do?
+                </a>
+              </h4>
+  
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body" style="margin-left: 2%;margin-right: 2%;" >Firstly, being a leading WordPress web development company we make sure that you get the best team to achieve your business goals. But, we also understand that such circumstances do hold their chances during the project. So, we give all our clients the choice to change any of their resources in the middle of the contract. We then provide the client with the next best resource that may be a better fit for your project's needs.
+  </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: black;font-size: 20px;">
+                    Will I receive any report for work done?
+                </a>
+              </h4>
+  
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body" style="margin-left: 2%;margin-right: 2%;">We believe that a trustworthy WordPress web development company will always be inclined to keep the clients updated and informed about their project’s progress. This helps us achieve transparency and trust with our clients. Yes, our Project Managers will provide you with hourly reports of the work done. If needed, we can also provide you with weekly and monthly reports. </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- above footer -->
+<div style="margin-top: 5%;"></div>
+  <div class="row m-0 p-0 text-center" >
+    <a href="#" class="col-md-4 m-0 p-0" style="color: black;background-color: rgba(0, 0, 0, 0.2);height: 200px;padding-top: 5%;">
+          <h4 style="margin-top: 13%;">About Our Company</h4>
+          <i class="fas fa-long-arrow-alt-right fa-3x"></i>
+      </a>
+      <a href="#" class="col-md-4 m-0 p-0" style="color: black;background-color: #e15701e7;padding-top: 5%;">
+        <h4 style="margin-top: 13%;">Read Our Blog</h4>
+        <i class="fas fa-long-arrow-alt-right fa-3x"></i>
+      </a>
+    <a href="#" class="col-md-4 m-0 p-0" style="color: black;background-color: rgba(0, 0, 0, 0.2);padding-top: 5%;">
+        <h4 style="margin-top: 13%;">HubSpot Development</h4>
+        <i class="fas fa-long-arrow-alt-right fa-3x"></i>
+    </a>
+  </div>
+
+   <!-- ***** Footer Start ***** -->
+   <footer
+   style="padding-top: 1%;background-color: rgba(0, 0, 0, 0.850);color: gray;font-weight: bold;font-size: 15px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+   <br />
+   <div class="container class4">
+       <div class="col class3">
+           <div class="row">
+               <h5>CONTACT</h5>
+           </div><br />
+           <div class="row">
+               <d class="footlink" href="#">✉️TEAM@CORPCRUSH.IN</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 10px;">📞(+91)7011733860</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 10px;">📍ANDHERI-WEST, MUMBAI, <br />
+                   400058 - MAHARASHTRA, INDIA <br />
+                   MON-SAT 9AM-6PM</d>
+           </div>
+       </div>
+       <div class="col class3">
+
+       </div>
+       <div class="col class3">
+           <div class="row">
+               <h5>NAVIGATE</h5>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 14px;">>HOME</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 5px;">>BLOG</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 5px;">>WORK</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 5px;">>ABOUT US</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 5px;">>CONTACT US</d>
+           </div>
+       </div>
+       <div class="col class3">
+           <div class="row">
+               <a></a><br /><br />
+           </div>
+           <div class="row">
+               <d class="footlink" href="#">>T&C</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 4px;">>PRIVACY <br /> POLICY</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 4px;">>STARTUP <br /> SAMACHAAR</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 4px;">>CAREERS</d>
+           </div>
+           <div class="row">
+               <d class="footlink" href="#" style="padding-top: 4px;">>SERVICES</d>
+           </div>
+       </div>
+       <div class="col class3">
+           <div class="row">
+               <h5>ACCREDITS</h5>
+           </div>
+           <br />
+           <div class="row">
+               <a><img src="./images/google-partner.png" style="width: 120px;"></a>
+           </div>
+       </div>
+   </div>
+   <div class="container">
+       <div class="row">
+           <div class="col">
+               <d style="font-size: 12px;color:white;">SEO SERVICES | SOCIAL MEDIA MANAGEMENT | APPLICATION
+                   DEVELOPMENT | WEB DEVELOPMENT | DIGITAL MARKETING | GRAPHIC DESIGNING | KEYWORD ANALYTICS |
+                   CONTENT MANAGEMENT | LEGAL SERVICES | E-BOOK PUBLISHING</d>
+           </div>
+           <div class="col">
+               <a href="https://www.facebook.com/"><img src="./images/fb.png" style="width: 30px;"></a>
+               <a href="https://www.youtube.com/"><img src="./images/youtube.png"
+                       style="width: 40px;padding-left: 10px;"></a>
+               <a href="https://www.linkedin.com/"><img src="./images/linkedin.png"
+                       style="width: 45px;padding-left: 10px;"></a>
+               <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                       src="./images/twitter.png" style="width: 40px;padding-left: 10px;"></a>
+               <a href="https://www.instagram.com/"><img src="./images/instagram.svg"
+                       style="width: 40px;padding-left: 10px;"></a>
+           </div>
+       </div>
+   </div>
+</footer>
+<div class="text-center" style="background-color: black;height: 35px;padding-top: 5px;">
+   <d style="color: white;">Copyright © 2021 CorpCrush | Powered by CorpCrush</d>
+</div>
+<!--Footer ends-->
+
 </body>
 <script src="./index.js"></script>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-36251023-1']);
@@ -362,7 +1085,7 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
 
-</script>
+</script> -->
 <script>
     try {
         fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
@@ -376,6 +1099,9 @@
     } catch (error) {
         console.log(error);
     }
+</script>
+<script>
+    AOS.init();
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
