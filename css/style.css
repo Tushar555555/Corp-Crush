@@ -873,7 +873,7 @@ figure.photo.hover:before {
 /* customer say */
 
 .comment-banner{
-  background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/back2.jpeg);
+  background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(../images/back2.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center;

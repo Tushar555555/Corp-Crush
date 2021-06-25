@@ -225,7 +225,7 @@
 /* banner starts */
 .header1{
     height: 60vh;
-    background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(./images/corpcrush-banner.jpeg);
+    background:linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,0.2)), url(../images/corpcrush-banner.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;

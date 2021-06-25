@@ -240,7 +240,7 @@ hr.new3 {
 
 .header1{
   height: 70vh;
-  background: url(./images/HZR_banner-brand-messaging.jpeg);
+  background: url(../images/HZR_banner-brand-messaging.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -292,7 +292,7 @@ hr.new3 {
 
   .banner1{
     height: 70vh;
-    background:url(./images/HZR_banner-customer-story.jpeg);
+    background:url(../images/HZR_banner-customer-story.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
