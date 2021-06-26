@@ -1,0 +1,806 @@
+<html>
+
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/c698af6171.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="font-awesome-animation.min.css">
+  <!--Bootstrap links-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!--CSS link-->
+  <link rel="stylesheet" href="../css/givingbtc.css">
+  <link rel="stylesheet" href="../outside css/infinite-slider.css">
+
+  <!-- Aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- slider -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <style>
+    .slick-prev,
+    .slick-next {
+      position: absolute;
+      font-size: 1.8rem;
+    }
+
+    .slick-prev {
+      left: 0;
+    }
+
+    .slick-next {
+      right: 0;
+    }
+
+    .slick-slider {
+      position: relative;
+      display: block;
+      box-sizing: border-box;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    .slick-list {
+      position: relative;
+      display: block;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      max-height: 200px;
+    }
+
+    .slick-list:focus {
+      outline: none;
+    }
+
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand;
+    }
+
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+
+    .slick-track {
+      position: relative;
+      top: 0;
+      left: 0;
+      display: block;
+    }
+
+    .slick-track:before,
+    .slick-track:after {
+      display: table;
+      content: '';
+    }
+
+    .slick-track:after {
+      clear: both;
+    }
+
+    .slick-loading .slick-track {
+      visibility: hidden;
+    }
+
+    .slick-slide {
+      display: none;
+      float: left;
+
+      min-height: 1px;
+    }
+
+    [dir='rtl'] .slick-slide {
+      float: right;
+    }
+
+    .slick-slide img {
+      display: block;
+    }
+
+    .slick-slide.slick-loading img {
+      display: none;
+    }
+
+    .slick-slide.dragging img {
+      pointer-events: none;
+    }
+
+    .slick-initialized .slick-slide {
+      display: block;
+    }
+
+    .slick-loading .slick-slide {
+      visibility: hidden;
+    }
+
+    .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent;
+    }
+
+    .slick-arrow.slick-hidden {
+      display: none;
+    }
+
+    .slide {
+      transition: filter .4s;
+      margin: 0px 40px;
+    }
+
+    .slick-prev {
+      left: 0;
+    }
+
+    .slick-prev,
+    .slick-next {
+      position: absolute;
+      top: 30%;
+      font-size: 1.8rem;
+    }
+
+    .section {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+  </style>
+
+
+<body>
+
+  <!-- Navbar start -->
+  <div class="main-wrapper">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid ">
+        <div class="brand-and-icon col">
+          <a href="index.html" class="navbar-brand">
+            <img src="../images/logo.png" style="width: 200px;">
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+
+        <div class="navbar-collapse">
+          <ul class="navbar-nav">
+            <li>
+              <a href="../index.html">home</a>
+            </li>
+
+            <li>
+              <a href="../html/about.html" class="menu-link" class="nav-link dropdown-toggle class2 xyz" href="#"
+                id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                discover us
+                <span class="drop-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class="sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black">
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>top categories</h4>
+                  <ul>
+                    <li><a href="../html/about.html">About us</a></li>
+
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>other categories</h4>
+                  <ul>
+                    <li><a href="#">Webinars</a></li>
+                    <li><a href="#">Workshops</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h2>Discover All about us</h2>
+                  <button type="button" class="btn">Click Me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <img src="../images/work-nav.jpeg" alt="product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href="#" class="menu-link" class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Services
+                <span class="drop-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class="sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>Web Development</h4>
+                  <ul>
+                    <li><a href="../html/wordpress.html">Wordpress</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>Digital Marketing</h4>
+                  <ul>
+                    <li><a href="../html/SEO-services.html">SEO SERVICES</a></li>
+                    <li><a href="#">SEM SERVICES</a></li>
+                    <li><a href="../html/Email-marketing.html">EMAIL MARKETING</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h2>See All About Our Services</h2>
+                  <button type="button" class="btn">Click Me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <img src="../images/work-nav.jpeg" alt="product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href="#" class="menu-link" class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Resources
+                <span class="drop-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class="sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4></h4>
+                  <ul>
+                    <li><a href="../html/referral-program.html">Referaal Program</a></li>
+                    <li><a href="../html/givingbtc.html">#GivingBackTOCommunity</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4></h4>
+                  <ul>
+                    <li><a href="#">Infographic</a></li>
+                    <li><a href="#">eBooks</a></li>
+                    <li><a href="#">PostCast</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h2>See Our Resources</h2>
+                  <button type="button" class="btn">Click me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <img src="../images/work-nav.jpeg" alt="product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href="./work.html" class="menu-link" class="nav-link dropdown-toggle class2 xyz" href="#"
+                id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Work
+                <span class="drop-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class="sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>Top categorie</h4>
+                  <ul>
+                    <li><a href="../html/work.html">Our Work</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>other categories</h4>
+                  <ul>
+                    <li><a href="../html/MLSPlayers.html">Enlighten Cyber Security</a></li>
+                    <li><a href="../html/ringstar.html">Off Kicks</a></li>
+                    <li><a href="../html/houwzer.html">O2 Mills</a></li>
+                    <li><a href="../html/vaterinarian.html">Uliv</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h2>See All Our Work</h2>
+                  <button type="button" class="btn">Click me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <img src="../images/work-nav.jpeg" alt="product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href="#" class="menu-link" class="nav-link dropdown-toggle class2 xyz" href="#" id="navbarDropdown2"
+                role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Insights
+                <span class="drop-icon">
+                  <i class="fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class="sub-menu" style="box-shadow:  0 10px 3px rgba(0,0,0,0.12), 0 1px 2px black;">
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>Blogs</h4>
+                  <ul>
+                    <li><a href="#">Our Blogs</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h4>Other Categories</h4>
+                  <ul>
+                    <li><a href="#">StartUp Samachar</a></li>
+                    <li><a href="#">Terms</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <h2>See Our Insights</h2>
+                  <button type="button" class="btn">Click me</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class="sub-menu-item">
+                  <img src="../images/work-nav.jpeg" alt="product image" style="width:200%;">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href="#">Careers</a>
+            </li>
+            <li>
+              <a href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+  </div>
+  </div>
+  <!--Navbar Ends-->
+
+
+  <!-- Banner -->
+
+  <div class="banner">
+    <div class="banner-center text-center" style="color: white;">
+      <h1>#GivingBackToCommunity</h1>
+      <p>A Digital Initiative of Uplers for NotForProfits</p>
+      <button class="btn">GET MORE INFO</button>
+    </div>
+  </div>
+
+  <!-- logo carousel -->
+
+  <div class="container text-center" style="margin-top: 5%;">
+    <h3 style="font-weight: 600;">OUR PARTNERS</h3><br /><br />
+  </div>
+
+
+  <section class="trigger section gutter-horizontal bg-gray gutter-vertical--m gutter-horizontal">
+    <div class="customer-logos slider">
+      <div class="slide-in-right slide"><img src="../images/client1.jpeg" alt="Kinderhotel Aschauerhof" height="150"
+          width="150"></a></div>
+      <div class="slide-in-right slide"><img src="../images/client2.png" height="150" width="150"></a></div>
+      <div class="slide-in-right slide"><img src="../images/client3.jpeg" height="150" width="150"></a></div>
+      <div class="slide-in-right slide"><img src="../images/client4.jpeg" height="150" width="150"></a></div>
+      <div class="slide-in-right slide"><img src="../images/client5.jpeg" height="150" width="150"
+          alt="Tannenmuehle"></a></div>
+      <div class="slide-in-right slide"><img src="../images/client6.jpeg" height="150" width="150" alt="Loeffele"></a>
+      </div>
+  </section>
+
+  <!-- logo carousel ends-->
+
+  <!-- Our Initiative -->
+
+  <div class="our-initiative">
+    <div class="initiative-center container text-center">
+      <h2>OUR INITIATIVE</h2><br />
+      <ul>
+        <li><span>Here at Uplers, we appreciate the hard work that gets done in the not-for-profit (NFP) sector with
+            limited
+            resources.</span></li><br />
+        <li><span>Many hard-working NFPs would benefit from greater online exposure, but few can afford the expense of
+            working
+            with an agency like us.</span></li><br />
+        <li><span>We believe it’s important to use our skills for more than just commercial gain. So now, with help
+            from
+            Google, we’ve found a unique way to donate our search marketing expertise to NFPs.</span></li><br />
+        <li><span>Google Ad Grants, it’s a generous initiative whereby approved NFPs receive up to $10,000 per month
+            via
+            in-kind AdWordsTM advertising.</span></li><br />
+        <li><span>Until now, there was a loophole with the program: Google provides no management support for your
+            online ad
+            campaigns. For those NFPs with limited digital know-how, a poorly managed campaign is a huge opportunity
+            wasted.</span></li><br />
+        <li><span>This is where Uplers comes in under the #GivingBackToCommunity initiative, we donate our digital
+            expertise
+            to help your NFP to get more bang for your buck from a Google Ad Grant at zero cost. It’s our way of
+            giving
+            back.</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Our Initiative ends-->
+
+  <!-- how we make a difference  -->
+
+  <div class="container text-center" style="margin-top: 5%;">
+    <h2 style="color: #002DBF;">HOW WE MAKE A DIFFERENCE</h2><br /><br />
+    <iframe width="60%" height="355" src="https://www.youtube.com/embed/guH2-0NgdIA" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe><br /><br /><br /><br />
+  </div>
+
+  <!-- timeline -->
+  <div class="time-banner">
+    <div class="container" style="margin-top: 7%;">
+      <h1 style="font-size: 40px;font-weight: 600;" class="text-center">
+        <a style="color: #E15501;">HOW WE</a>&nbsp;<a style="color: #002DBF;">WORK</a>
+      </h1>
+      <div class="row" style="margin-top: 5%;">
+        <div class="col-md-12">
+          <div class="main-timeline5">
+            <div class="timeline">
+              <div class="timeline-icon"><span class="year"><i class="fas fa-clipboard-list fa-2x"
+                    style="margin-top: 20%;"></i></span>
+              </div>
+              <div class="timeline-content">
+                <h3 class="title">Google provides not-for-profits a grant of $10,000 per month, in-kind.</h3>
+
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-icon"><span class="year"><i class="fas fa-chart-pie fa-2x"
+                    style="margin-top: 20%;"></i></span></div>
+              <div class="timeline-content">
+                <h3 class="title">We manage it completely free.</h3>
+
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-icon"><span class="year"><i class="far fa-lightbulb fa-2x"
+                    style="margin-top: 20%;"></i></span></div>
+              <div class="timeline-content">
+                <h3 class="title">Not-for-profits get visibility and reach on Google.</h3>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-icon"><span class="year"><i class="fab fa-phabricator fa-2x"
+                    style="margin-top: 20%;"></i></span></div>
+              <div class="timeline-content">
+                <h3 class="title">We continuously update our strategies</h3>
+              </div>
+            </div>
+            <div class="timeline">
+              <div class="timeline-icon"><span class="year"><i class="fas fa-tools fa-2x"
+                    style="margin-top: 20%;"></i></span></div>
+              <div class="timeline-content">
+                <h3 class="title">Not-for-profits gain engagement, online coverage & volunteers to help.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="margin-left: 40%;margin-top: 3%;">
+      <button class="btn" style="font-size: 18px;">IS YOUR NFP ELIGIBLE?</button>
+    </div>
+
+  </div>
+  </div>
+
+<!-- forms -->
+
+<div class="text-center" style="margin-top:5%;">
+  <h1>LET US HELP YOU TODAY!</h1>
+</div>
+
+<div class="container" style="margin-top: 5%;">
+  <form>
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control textarea" placeholder="Name*">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control textarea" placeholder="Work Email*">
+      </div>
+    </div>
+    <div class="row" style="margin-top: 3%;">
+      <div class="col">
+        <input type="number" class="form-control textarea" placeholder="Phone*">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control textarea" placeholder="Website*">
+      </div>
+    </div>
+    <div class="row" style="margin-top: 3%;">
+      <div class="col">
+      <input type="text" class="form-control textarea" placeholder="Message">
+      </div>
+      </div>
+      <div class="row" style="margin-bottom:5%;margin-top: 3%;">
+        <div class="col text-center">
+          <button class="btn" style="width: 15%;">SUBMIT</button>
+        </div>
+      </div>
+  </form>
+</div>
+
+
+<!-- testimonial -->
+
+<div class="comment-banner">
+  <h2 class="text-center" style="color: white;padding-top: 7%;">TESTIMONIALS</h2>
+  <div class="container-xl" style="padding-top: 2%;padding-bottom: 5%;">
+      <div class="row">
+          <div class="col-lg-8 mx-auto">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Carousel indicators -->
+                  <ol class="carousel-indicators">
+                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                      <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <!-- Wrapper for carousel items -->
+                  <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="img-box"><img src="../images/david.jpeg" alt=""></div>
+                          <p class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu
+                              sem tempor, varius quam at, luctus dui. Mauris magna metus, dapibus nec turpis vel,
+                              semper malesuada ante. Idac bibendum scelerisque non non purus. Suspendisse varius
+                              nibh non aliquet.</p>
+                          <p class="overview"><b>Name</b>, <c>Position</c>
+                          </p>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="img-box"><img src="../images/david.jpeg" alt=""></div>
+                          <p class="testimonial">Vestibulum quis quam ut magna consequat faucibus. Pellentesque
+                              eget nisi a mi suscipit tincidunt. Utmtc tempus dictum risus. Pellentesque viverra
+                              sagittis quam at mattis. Suspendisse potenti. Aliquam sit amet gravida nibh,
+                              facilisis gravida odio.</p>
+                          <p class="overview"><b>Name</b>, <c>Position</c>
+                          </p>
+                      </div>
+                      <div class="carousel-item">
+                          <div class="img-box"><img src="../images/david.jpeg" alt=""></div>
+                          <p class="testimonial">Phasellus vitae suscipit justo. Mauris pharetra feugiat ante id
+                              lacinia. Etiam faucibus mauris id tempor egestas. Duis luctus turpis at accumsan
+                              tincidunt. Phasellus risus risus, volutpat vel tellus ac, tincidunt fringilla massa.
+                              Etiam hendrerit dolor eget rutrum.</p>
+                          <p class="overview"><b>Name</b>, <c>Position</c>
+                          </p>
+                      </div>
+                  </div>
+                  <!-- Carousel controls -->
+                  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                      <i class="fa fa-angle-left"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                      <i class="fa fa-angle-right"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+  </div><br /><br />
+</div>
+
+
+
+
+  <!-- ***** Footer Start ***** -->
+  <footer
+    style="background-color: rgba(0, 0, 0, 0.850);color: gray;font-weight: bold;font-size: 15px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <br />
+    <div class="container class4">
+      <div class="col class3">
+        <div class="row">
+          <h5>CONTACT</h5>
+        </div><br />
+        <div class="row">
+          <d class="footlink" href="#">✉️TEAM@CORPCRUSH.IN</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 10px;">📞(+91)7011733860</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 10px;">📍ANDHERI-WEST, MUMBAI, <br />
+            400058 - MAHARASHTRA, INDIA <br />
+            MON-SAT 9AM-6PM</d>
+        </div>
+      </div>
+      <div class="col class3">
+
+      </div>
+      <div class="col class3">
+        <div class="row">
+          <h5>NAVIGATE</h5>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 14px;">>HOME</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 5px;">>BLOG</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 5px;">>WORK</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 5px;">>ABOUT US</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 5px;">>CONTACT US</d>
+        </div>
+      </div>
+      <div class="col class3">
+        <div class="row">
+          <a></a><br /><br />
+        </div>
+        <div class="row">
+          <d class="footlink" href="#">>T&C</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 4px;">>PRIVACY <br /> POLICY</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 4px;">>STARTUP <br /> SAMACHAAR</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 4px;">>CAREERS</d>
+        </div>
+        <div class="row">
+          <d class="footlink" href="#" style="padding-top: 4px;">>SERVICES</d>
+        </div>
+      </div>
+      <div class="col class3">
+        <div class="row">
+          <h5>ACCREDITS</h5>
+        </div>
+        <br />
+        <div class="row">
+          <a><img src="../images/google-partner.png" style="width: 120px;"></a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <d style="font-size: 12px;color:white;">SEO SERVICES | SOCIAL MEDIA MANAGEMENT | APPLICATION
+            DEVELOPMENT | WEB DEVELOPMENT | DIGITAL MARKETING | GRAPHIC DESIGNING | KEYWORD ANALYTICS |
+            CONTENT MANAGEMENT | LEGAL SERVICES | E-BOOK PUBLISHING</d>
+        </div>
+        <div class="col">
+          <a href="https://www.facebook.com/"><img src="../images/fb.png" style="width: 30px;"></a>
+          <a href="https://www.youtube.com/"><img src="../images/youtube.png"
+              style="width: 40px;padding-left: 10px;"></a>
+          <a href="https://www.linkedin.com/"><img src="../images/linkedin.png"
+              style="width: 45px;padding-left: 10px;"></a>
+          <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+              src="../images/twitter.png" style="width: 40px;padding-left: 10px;"></a>
+          <a href="https://www.instagram.com/"><img src="../images/instagram.svg"
+              style="width: 40px;padding-left: 10px;"></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="text-center" style="background-color: black;height: 35px;padding-top: 5px;">
+    <d style="color: white;">Copyright © 2021 CorpCrush | Powered by CorpCrush</d>
+  </div>
+  <!--Footer ends-->
+
+
+
+  <script src="../js/index.js"></script>
+  <script>
+    try {
+      fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function (response) {
+        return true;
+      }).catch(function (e) {
+        var carbonScript = document.createElement("script");
+        carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+        carbonScript.id = "_carbonads_js";
+        document.getElementById("carbon-block").appendChild(carbonScript);
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  </script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $('.customer-logos').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 1500,
+        arrows: true,
+        dots: false,
+        pauseOnHover: false,
+        prevArrow: '<i class="slick-prev fas fa-angle-left"></i>',
+        nextArrow: '<i class="slick-next fas fa-angle-right"></i>',
+        responsive: [{
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 3
+          }
+        }, {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 2
+          }
+        }]
+      });
+    });
+  </script>
+
+</body>
+</head>
+
+</html>
