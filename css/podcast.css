@@ -1,0 +1,105 @@
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* banner starts */
+.header1{
+    height: 100vh;
+    background:url(../images/podcast-banner.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+   }
+   
+   .banner-center{
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+   }
+  
+   .banner-center h2{
+       padding-top: 8%;
+     font-size: 50px;
+     font-weight: 900;
+     font-family: Noto Sans, sans-serif;
+   }
+
+   .banner-center h5{
+    padding-top: 1%;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: Noto Sans, sans-serif;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #FFDA30;
+    padding: 15px 20px 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+    font-size: 16px;
+    width: 35%;
+  }
+  
+  .btn:hover {
+    background: #002DBF;
+    color: white;
+    text-decoration: none;
+  }
+   
+   
+   /* banner end */
+
+   /* collapse */
+
+   .plus-minus:after,
+.plus-minus.collapsed:after {
+  display: inline-block;
+  width: 1em;
+  font-family: arial;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+.plus-minus:after {
+  content:"-";
+  top: -1px;
+}
+.plus-minus.collapsed:after {
+  content:"+";
+  top: 0;
+}
+
+/* Footer start */
+.class3 {
+  height: 280px;
+}
+.class4 {
+  display: flex;
+  height: 280px;
+}
+
+.footlink {
+  color: white;
+}
+
+.footlink:hover {
+  color: rgb(0, 119, 255);
+}
+
+/* footer ends */
+
+   
+ 
