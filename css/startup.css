@@ -1,5 +1,4 @@
 /* Navbar start */  
- 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 *{
@@ -151,7 +150,6 @@ body{
   .navbar{
     overflow-y: scroll;
     position:relative;
-    color: #000;
   }
   .navbar-toggler{
     height: 40px;
@@ -164,7 +162,7 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        border-bottom: 1px solid transparent;
+        border-bottom: 1px solid #ddd;
         padding: 0 5rem;
         position: fixed;
     }
@@ -191,7 +189,6 @@ body{
         margin: 0 0.4rem;
         padding: 1.7rem 1.8rem 1.7rem 0.8rem;
         font-size: 0.8rem;
-        color: white;
     }
     .sub-menu{
         position: absolute;
@@ -226,139 +223,73 @@ body{
 }
 /* Navbar Ends */
 
-
 /* banner start */
 
-.header1{
-    background-color: #022131;
-    /* background-image: linear-gradient(304deg, #151B1E -1%, #012E46 102%); */
-}
-
-.btn1 {
-    -webkit-border-radius: 7;
-    -moz-border-radius: 7;
-    border-radius: 7px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    background: #6FE394;
-    padding: 10px 20px 10px 20px;
-    text-decoration: none;
-  }
-  
-  .btn1:hover {
-    background: #6FE394e1;
-    text-decoration: none;
-  }
-
-  /* banner end */
-
-  /* more than name start */
-
-  .btn2 {
-    -webkit-border-radius: 7;
-    -moz-border-radius: 7;
-    border-radius: 4px;
-    font-family: Arial;
-    color: black;
-    font-size: 20px;
-    background: lightgray;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
-  }
-  
-  .btn2:hover {
-    background: grey;
-    text-decoration: none;
-    color: black;
-  }
-
-  /* collapse video */
-
-  .collapsible {
-    background-color: #6FE394;
-    color: black;
-    cursor: pointer;
-    padding: 10px;
-    -webkit-border-radius: 7;
-    -moz-border-radius: 7;
-    border-radius: 7px;
-    width: 200px;
-    border: 1px solid black;
-    text-align: center;
-    outline: none;
-    font-size: 1.25em;
-  }
-  .active, .collapsible:hover {
-    background-color: #6FE394e1;
-  }
-  .content {
-    padding: 0 18px;
-    display: none;
+.bg-video-wrap {
+    position: relative;
     overflow: hidden;
-    background-color: white;
+    width: 100%;
+    height: 50vh;
+    /* background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover; */
   }
-
-   /* Cards */
-
-   .card {
-    transition: transform 0.2s ease;
-    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
-    border-radius: 0;
-    border: 0;
-    margin-bottom: 1.5em;
+  video {
+    min-width: 100%;
+    min-height: 50vh;
+    z-index: 1;
   }
-  .card:hover {
-    transform: scale(1.1);
+  .overlay {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+    background-size: 3px 3px;
+    z-index: 2;
   }
-
-
-  /* FAQ start */
-.panel-title > a:before {
-    float: right !important;
-    font-family: FontAwesome;
-    content:"\f068";
-    padding-right: 5px;
-  }
-  .panel-title > a.collapsed:before {
-    float: right !important;
-    content:"\f067";
-  }
-  .panel-title > a:hover, 
-  .panel-title > a:active, 
-  .panel-title > a:focus  {
-    text-decoration:none;
-  }
-  .panel-heading {
-    padding: 20px 15px;
-    border-bottom: 1px solid transparent;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px;
-  }
-  .panel {
-    margin-bottom: 20px !important;
-    background-color: #ffffff;
-    border: 1px solid transparent;
-    -webkit-box-shadow: 0 1px 1px rgb(0 0 0 / 5%);
-    box-shadow: 15px 16px 13px 8px rgb(4 4 4 / 5%);
-  }
-  .jumbotron {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    color: inherit;
-    background-color: #002DBF;
+  h1 {
     text-align: center;
     color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 3;
+    max-width: 400px;
+    width: 100%;
+    height: 50px;
+  }
+
+  /* banner ends */
+
+.row{
+    margin: 0;
+    padding: 0;
+}
+
+   /* img tilt */
+
+   .hover-rotate {
+    overflow: hidden;
+    margin: 0px;
+    width: 100%;
   }
   
-  /* FAQ ends */
-
-
-
-
- /* Footer start */
- .class3 {
+  .hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .hover-rotate:hover img {
+    transform: scale(1.3) rotate(5deg);
+    filter: brightness(.7);
+  }
+  
+/* Footer start */
+.class3 {
     height: 280px;
 }
 .class4 {
@@ -375,46 +306,3 @@ body{
 }
 
 /* footer ends */
-
-
-/* video section */
-
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .content1 {
-    height: 100%;
-    width: 45%;
-    font-size: 24px;
-    line-height: 100px; 
-    text-align: center;
-    margin: 5px;
-    display: none;
-  }
-  #loadMore {
-    width: 200px;
-    color: #fff;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    background-color: blue;
-    transition: .3s;
-  }
-  #loadMore:hover {
-    color: blue;
-    background-color: #fff;
-    border: 1px solid blue;
-    text-decoration: none;
-  }
-  .noContent {
-    color: #000 !important;
-    background-color: transparent !important;
-    pointer-events: none;
-  }

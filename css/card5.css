@@ -1,5 +1,4 @@
 /* Navbar start */  
- 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
 *{
@@ -151,7 +150,6 @@ body{
   .navbar{
     overflow-y: scroll;
     position:relative;
-    color: #000;
   }
   .navbar-toggler{
     height: 40px;
@@ -164,7 +162,7 @@ body{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        border-bottom: 1px solid transparent;
+        border-bottom: 1px solid #ddd;
         padding: 0 5rem;
         position: fixed;
     }
@@ -191,7 +189,6 @@ body{
         margin: 0 0.4rem;
         padding: 1.7rem 1.8rem 1.7rem 0.8rem;
         font-size: 0.8rem;
-        color: white;
     }
     .sub-menu{
         position: absolute;
@@ -227,89 +224,87 @@ body{
 /* Navbar Ends */
 
 
-/* banner start */
+ /* position */
 
-.header1{
-    background-color: #022131;
-    /* background-image: linear-gradient(304deg, #151B1E -1%, #012E46 102%); */
+ .position{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between !important;
+}
+.position a{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(83, 81, 81);
 }
 
-.btn1 {
-    -webkit-border-radius: 7;
-    -moz-border-radius: 7;
-    border-radius: 7px;
+.position a:hover{
+    color: blue;
+}
+
+
+/* list */
+
+ul li{
+    color: rgb(83, 81, 81);
+}
+.tick{
+    list-style: none;
+    padding-left: 1.2em;
+    text-indent: -1.2em;
+}
+.tick li{
+    margin-top: 4%;
+}
+.tick li::before{
+    content: "✔";
+    color: blue;
+    display: block;
+    float: left;
+    width: 1.2em;
+}
+
+/* links */
+
+.link{
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+    transition-delay: .15s;
+}
+
+/* button */
+
+.btn10 {
+    -webkit-border-radius: 6;
+    -moz-border-radius: 6;
+    border-radius: 6px;
     font-family: Arial;
     color: #ffffff;
-    font-size: 20px;
-    background: #6FE394;
-    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    background: #1b52d8;
+    padding: 15px 20px 15px 20px;
     text-decoration: none;
+    border: none;
+    width: 100%;
   }
   
-  .btn1:hover {
-    background: #6FE394e1;
+  .btn10:hover {
+    background: #0840ce;
     text-decoration: none;
   }
 
-  /* banner end */
-
-  /* more than name start */
-
-  .btn2 {
-    -webkit-border-radius: 7;
-    -moz-border-radius: 7;
-    border-radius: 4px;
-    font-family: Arial;
-    color: black;
-    font-size: 20px;
-    background: lightgray;
-    padding: 10px 10px 10px 10px;
-    text-decoration: none;
+  .tags{
+      background-color: #e8eff1;
+      padding: 4%;
+      color: rgb(83, 81, 81);
+      border-radius: 6px;
   }
-  
-  .btn2:hover {
-    background: grey;
-    text-decoration: none;
-    color: black;
-  }
-
-  /* collapse video */
-
-  .collapsible {
-    background-color: #6FE394;
-    color: black;
-    cursor: pointer;
-    padding: 10px;
-    -webkit-border-radius: 7;
-    -moz-border-radius: 7;
-    border-radius: 7px;
-    width: 200px;
-    border: 1px solid black;
-    text-align: center;
-    outline: none;
-    font-size: 1.25em;
-  }
-  .active, .collapsible:hover {
-    background-color: #6FE394e1;
-  }
-  .content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: white;
-  }
-
-   /* Cards */
-
-   .card {
-    transition: transform 0.2s ease;
-    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
-    border-radius: 0;
-    border: 0;
-    margin-bottom: 1.5em;
-  }
-  .card:hover {
-    transform: scale(1.1);
+  .tags:hover{
+      color: black;
+      text-decoration: none;
   }
 
 
@@ -354,67 +349,23 @@ body{
   
   /* FAQ ends */
 
-
-
-
- /* Footer start */
- .class3 {
-    height: 280px;
-}
-.class4 {
-    display: flex;
-    height: 280px;
-}
-
-.footlink {
-    color: white;
-}
-
-.footlink:hover {
-    color: rgb(0, 119, 255);
-}
-
-/* footer ends */
-
-
-/* video section */
-
-
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-  }
-  .content1 {
-    height: 100%;
-    width: 45%;
-    font-size: 24px;
-    line-height: 100px; 
+  .TA{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    border-radius: 50%;
     text-align: center;
-    margin: 5px;
-    display: none;
-  }
-  #loadMore {
-    width: 200px;
-    color: #fff;
-    display: block;
-    text-align: center;
-    margin: 20px auto;
-    padding: 10px;
-    border-radius: 10px;
-    border: 1px solid transparent;
-    background-color: blue;
-    transition: .3s;
-  }
-  #loadMore:hover {
-    color: blue;
-    background-color: #fff;
-    border: 1px solid blue;
+    line-height: 25px;
+    font-size: 18px;
+    padding-top: 2%;
+}
+
+.about{
+    color: rgb(83, 81, 81);
+    margin-left: 2%;
+    font-size: 18px;
+}
+.about:hover{
+    color: black;
     text-decoration: none;
-  }
-  .noContent {
-    color: #000 !important;
-    background-color: transparent !important;
-    pointer-events: none;
-  }
+}
